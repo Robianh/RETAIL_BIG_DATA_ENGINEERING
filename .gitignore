@@ -1,0 +1,20 @@
+
+# Raw and generated data files
+data/raw/
+data/bronze/
+data/silver/
+
+# Python cache and virtual environments
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+
+# Operating system files
+.DS_Store
+Thumbs.db
